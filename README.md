@@ -29,6 +29,7 @@ Avant d'exécuter le DAG Airflow, assurez-vous d'avoir configuré les clés d'ac
 2. Configurez les informations d'authentification AWS dans `twitter_etl.py` pour accéder à S3.
 3. Lancez le DAG Airflow en exécutant le script `twitter_dag.py`.
 4. Consultez le bucket S3 spécifié dans le script pour récupérer les fichiers CSV contenant les données extraites et transformées.
+5. AND DONT FORGET TO PUT YOUR TOKEN CREDENTIALS !
 
 ## Stockage dans AWS S3
 
